@@ -1,0 +1,117 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:global"
+    },
+    "ops": [
+      {
+        "source": "MagicalFireworks.ColumnNumber.Ascending",
+        "target": "MagicalFireworks.ColumnNumber",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem: {tag: {MagicalFireworks: {Data: {tag: {display: {Name: '\"asc\"'}}}}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:global"
+    },
+    "ops": [
+      {
+        "source": "MagicalFireworks.ColumnNumber.Ascending",
+        "target": "MagicalFireworks.ColumnNumber",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem: {tag: {MagicalFireworks: {Data: {tag: {display: {Name: '\"ascending\"'}}}}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:global"
+    },
+    "ops": [
+      {
+        "source": "MagicalFireworks.ColumnNumber.Descending",
+        "target": "MagicalFireworks.ColumnNumber",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem: {tag: {MagicalFireworks: {Data: {tag: {display: {Name: '\"desc\"'}}}}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:global"
+    },
+    "ops": [
+      {
+        "source": "MagicalFireworks.ColumnNumber.Descending",
+        "target": "MagicalFireworks.ColumnNumber",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem: {tag: {MagicalFireworks: {Data: {tag: {display: {Name: '\"descending\"'}}}}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:global"
+    },
+    "ops": [
+      {
+        "source": "MagicalFireworks.ColumnNumber.Random",
+        "target": "MagicalFireworks.ColumnNumber",
+        "op": "replace"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem: {tag: {MagicalFireworks: {Data: {tag: {display: {Name: '\"random\"'}}}}}}}"
+        }
+      }
+    ]
+  }
+]

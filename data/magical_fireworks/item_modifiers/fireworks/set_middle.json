@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_fireworks:temp"
+    },
+    "ops": [
+      {
+        "source": "CacheFireworksData.Middle",
+        "target": "ChargedProjectiles",
+        "op": "append"
+      }
+    ]
+  }
