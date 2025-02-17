@@ -1,5 +1,8 @@
 # Magical Fireworks
 
+[![release](https://img.shields.io/github/release/iruru1111/Magical-Fireworks?logo=github)](https://github.com/iruru1111/Magical-Fireworks/releases)
+[![license](https://img.shields.io/github/license/iruru1111/Magical-Fireworks?logo=github)](https://github.com/iruru1111/Magical-Fireworks/blob/master/license)
+[![downloads](https://img.shields.io/github/downloads/iruru1111/Magical-Fireworks/total?logo=github)](https://github.com/iruru1111/Magical-Fireworks/releases/latest)  
 花火を打ちまくろう！
 
 ## 動作環境
@@ -18,6 +21,7 @@ Releasesからダウンロードして自分のワールドのdatapacksに放り
 ```
 
 ### 花火のセット方法
+
 ○ 手順1  
 好きな花火を作ろう！  
 花火(firework_rocket)ならなんでも対応している…はず  
@@ -60,6 +64,7 @@ Magical Fireworksを手に持って打ってみよう！
 ![2025-02-17_17 27 46](https://github.com/user-attachments/assets/eacf2452-d381-4c60-aff0-cd43dd401cfa)  
 
 ### そのほかの説明
+
 ・Magical Fireworksの上書きをするにはどうすればいいの？  
 もう一度シュルカーボックスの中身を入れ替えてインベントリ左上に配置した状態でMagical Fireworksを持つと変化するはずです。  
 また複数持っていても動作します。ホイール操作連続で切り替えるとたまにバグるかも…
@@ -69,6 +74,7 @@ Magical Fireworksの名前を金床等で書き換えれば上書きできなく
 （ただし、見た目や名前の色が失われる。）  
 
 ## 技術的な小話とか
+
 Magical Fireworks自体にシュルカーボックスのデータを保存しています。それなのでクリエイティブでのコピーにも対応していたりします。   
 もともとは全く別の方法で作成していてほぼ完成状態だったのですが、それを一旦放棄して改めてアイテムにデータ保存する方式で作成したら、
 いい感じにできてしまったのでこっちを採用しました。元々30hほど掛けてた作業が8hくらいで1日で終わったのマジで意味わからない。  
@@ -76,13 +82,14 @@ Magical Fireworks自体にシュルカーボックスのデータを保存して
 気が向いたら1.21以降のバージョン対応や、アップデートを行なうかもしれません。
 
 ## 謝辞
+
 花火のサンプル案に[みゅーず](https://x.com/muse_syu)氏の[かわいい花火のレシピ](http://blog.livedoor.jp/muse_sekken/archives/10317102.html)を参考に使用させていただいています。  
 この場を借りて御礼申し上げます。  
 
 ## ライセンス
 
-このソフトウェアは、MITライセンスのもとで公開されています。詳しくは[LICENSE]()をご覧ください。  
-These codes are released under the MIT License, see [LICENSE]().
+このソフトウェアは、MITライセンスのもとで公開されています。詳しくは[LICENSE](https://github.com/iruru1111/Magical-Fireworks/blob/master/LICENSE)をご覧ください。  
+These codes are released under the MIT License, see [LICENSE](https://github.com/iruru1111/Magical-Fireworks/blob/master/LICENSE).
 
 ## 連絡
 https://twitter.com/iruru1111
