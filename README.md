@@ -1,7 +1,7 @@
 # Magical Fireworks
 
 [![release](https://img.shields.io/github/release/iruru1111/Magical-Fireworks?logo=github)](https://github.com/iruru1111/Magical-Fireworks/releases)
-[![license](https://img.shields.io/github/license/iruru1111/Magical-Fireworks?logo=github)](https://github.com/iruru1111/Magical-Fireworks/blob/master/license)
+[![LICENSE](https://img.shields.io/github/license/iruru1111/Magical-Fireworks?logo=github)](https://github.com/iruru1111/Magical-Fireworks/blob/master/LICENSE)
 [![downloads](https://img.shields.io/github/downloads/iruru1111/Magical-Fireworks/total?logo=github)](https://github.com/iruru1111/Magical-Fireworks/releases/latest)  
 花火を打ちまくろう！
 
